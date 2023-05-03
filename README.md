@@ -4,7 +4,7 @@
 
 Git repository for the 2023 GNSS Remote Sensing Colloquium. It contains both Jupyter notebook and Python Lab exercises of the 2023 GNSS Remote Sensing Colloquium. 
 
-- Git Repo: https://git@github.com:cosmic-sysadmin/GNSSRSC-2023.git
+- Git Repo: [https://git@github.com:cosmic-sysadmin/GNSSRSC-2023.git](https://github.com/cosmic-sysadmin/GNSSRSC-2023)
 - Jupyter notebook files: in jupyter-notebooks directory
 - Python files: in python-files directory
 
