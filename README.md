@@ -1,20 +1,26 @@
 # GNSSRSC-2023
 
+## 2023 GNSS Remote Sensing Colloquium Repository
 
+Git repository for the 2023 GNSS Remote Sensing Colloquium. It contains both Jupyter notebook and Python Lab exercises of the 2023 GNSS Remote Sensing Colloquium. 
 
-
-## 2023 GNSS Remote Sensing Colloquium 
-
-This repository contains Jupyter notebooks for the lab exerc of the 2023 GNSS Remote Sensing Colloquium lab exercises
+- Git Repo: https://git@github.com:cosmic-sysadmin/GNSSRSC-2023.git
+- Jupyter notebook files: in jupyter-notebooks directory
+- Python files: in python-files directory
 
 
 ## List of contributors
+- Iurii Cherniak
+- Tyson Hager
+- Hannah Huelsing
+- Maggie Sleziak-Sallee
+- Jeremiah Sjoberg
+- Garry Romero
+- Jan Weiss
+- Irina Zakharenkova
+- Hailing Zhang
+- Zhen Zeng
 
-Add list of people that have contributed to these repository (craeted Jupyter labs, set up instructions)
-
-## Lab exercises
-
-List of Jupyter books available to work with for the Colloquium labs
 
 ## Requirements
 The jupyter notebooks require the following Python libraries: 
@@ -26,44 +32,46 @@ The jupyter notebooks require the following Python libraries:
 - pandas
 - ggplot
 - xarray
-- libnetcdf
 - palettable
 - pyyaml
 - netcdf4
 - jupyter
-- (Please add as need) 	
-
+- Any other types?
+ 	
 
 ## The Data Files: Main file types we will be working with: 
 
-- [ ] [COSMIC-2 podTc2 files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level1b/2023/115/)
-- [ ] [COSMIC-2 atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level2/2023/115/)
-- [ ] [SPIRE atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/spire/nrt/level2/2023/115/)
-- Let's list any other files types (i.e: ionPrf)
+- [COSMIC-2 podTc2 files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level1b/)
+- [COSMIC-2 atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level2/)
+- [SPIRE atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/spire/nrt/level2/)
+- Any other types?
 
 
 # Decide on a Daterange
 
-- We will need to decide on a daterange for data to use for the lab exercises
+- Any particular data range for the Lab exercises?
 
 
 ## Set up
 
 - [ ] VM - Instructions here to access and work with the VM
+- Tyson and Gary to update this part
 
-- [ ] Local machine - You can also run the notebooks on your own computer/laptop or a remote cluster (provided you have admin privileges to install miniconda on your system)  
+
+- [ ] Local machine - You can also run the notebooks on your own computer/laptop or a remote cluster
 - First install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 
+- Please note you may need admin priviledges to install miniconda on your local computer. 
 
 - Then install the main dependencies with
-conda install -c conda-forge numpy scipy matplotlib pandas cartopy ggplot pyyaml netcdf4 xarray libnetcdf palettable seaborn jupyter ipython pip
+conda install -c conda-forge numpy scipy matplotlib pandas cartopy ggplot pyyaml netcdf4 xarray palettable jupyter ipython pip
 
 - You can also create an environment for this i.e:  
-conda create -n myenv gnssrc
+conda create -n myenv gnssrsc
 
 - You might need pip to install any other remaining libraries (in case they do not install with the conda install commands) 
 
 - Next, clone this repository locally with:
-- git clone https://git.cosmic.ucar.edu/maggie/gnssrsc-2023.git
+- git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git
 
 - And finally start Jupyter Lab in your home directory: 
 jupyter lab
@@ -73,6 +81,6 @@ jupyter lab
 ## Reading Recomendations
 - [ ] Jupyter Lab [Overview](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html)
 
-## Additional Notes: 
+
 
 
