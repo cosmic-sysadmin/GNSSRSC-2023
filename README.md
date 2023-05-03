@@ -31,7 +31,7 @@ The jupyter notebooks require the following Python libraries:
 - pyyaml
 - netcdf4
 - jupyter
-- (Please add as need) 	
+- (Please add as need ) 	
 
 
 ## The Data Files: Main file types we will be working with: 
