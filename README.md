@@ -65,6 +65,7 @@ The jupyter notebooks require the following Python libraries:
 
 - Install the main dependencies. It is recommended that these are installed individually to prevent conflicts during install.
 
+```bash
 conda install -c conda-forge 
 conda install -c conda-forge numpy
 conda install -c conda-forge scipy
@@ -79,14 +80,16 @@ conda install -c conda-forge palettable
 conda install -c conda-forge jupyter
 conda install -c conda-forge ipython 
 conda install -c conda-forge pip
+```
 
 - You can also create an environment for this i.e:  
-conda create -n myenv gnssrsc
+`conda create --name gnssrsc`
 
 - You might need pip to install any other remaining libraries (in case they do not install with the conda install commands) 
 
-- Next, clone this repository locally with:
-- git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git
+- Next, clone this repository locally with: 
+  
+  `git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git`
 
 - And finally start Jupyter Lab in the git repository directory directory: 
 jupyter lab
