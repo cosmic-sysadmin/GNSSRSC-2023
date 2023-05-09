@@ -60,10 +60,25 @@ The jupyter notebooks require the following Python libraries:
 
 - [ ] Local machine - You can also run the notebooks on your own computer/laptop or a remote cluster
 - First install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 
-- Please note you may need admin priviledges to install miniconda on your local computer. 
+  - Windows OS: When installing, you can install for just a single user without Admin privileges.
+  - MacOS: Depending on configuration, you might need Admin privileges.
 
-- Then install the main dependencies with
-conda install -c conda-forge numpy scipy matplotlib pandas cartopy ggplot pyyaml netcdf4 xarray palettable jupyter ipython pip
+- Install the main dependencies. It is recommended that these are installed individually to prevent conflicts during install.
+
+conda install -c conda-forge 
+conda install -c conda-forge numpy
+conda install -c conda-forge scipy
+conda install -c conda-forge matplotlib 
+conda install -c conda-forge pandas
+conda install -c conda-forge cartopy 
+conda install -c conda-forge ggplot
+conda install -c conda-forge pyyaml
+conda install -c conda-forge netcdf4
+conda install -c conda-forge xarray
+conda install -c conda-forge palettable
+conda install -c conda-forge jupyter
+conda install -c conda-forge ipython 
+conda install -c conda-forge pip
 
 - You can also create an environment for this i.e:  
 conda create -n myenv gnssrsc
@@ -73,8 +88,9 @@ conda create -n myenv gnssrsc
 - Next, clone this repository locally with:
 - git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git
 
-- And finally start Jupyter Lab in your home directory: 
+- And finally start Jupyter Lab in the git repository directory directory: 
 jupyter lab
+
 - Inside jupyter lab navigate to notebooks directory to access the colloquium notebooks. You will need internet access to load the data which we will be downloading either from data.cosmic.ucar.edu or will be included in the git repo and will be downloaded at the time of cloning the repository. 
 
 
