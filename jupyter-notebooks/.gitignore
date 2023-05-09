@@ -1,0 +1,5 @@
+# Exclude userdata directory, where the input data and output figures will be stored
+userdata
+
+# Exclude ipynb checkpoints
+.ipynb_checkpoints
