@@ -47,7 +47,7 @@ The jupyter notebooks require the following Python libraries:
 - Any other types?
 
 
-# Decide on a Daterange
+## Decide on a Daterange
 
 - Any particular data range for the Lab exercises?
 
@@ -66,33 +66,40 @@ The jupyter notebooks require the following Python libraries:
 - Install the main dependencies. It is recommended that these are installed individually to prevent conflicts during install.
 
 ```bash
-conda install -c conda-forge 
 conda install -c conda-forge numpy
 conda install -c conda-forge scipy
 conda install -c conda-forge matplotlib 
 conda install -c conda-forge pandas
 conda install -c conda-forge cartopy 
-conda install -c conda-forge ggplot
 conda install -c conda-forge pyyaml
 conda install -c conda-forge netcdf4
 conda install -c conda-forge xarray
 conda install -c conda-forge palettable
 conda install -c conda-forge jupyter
-conda install -c conda-forge ipython 
+conda install -c conda-forge ipython  #This may already be installed with 
 conda install -c conda-forge pip
+If you need another library and conda install cannot find it, you can also use pip
+i.e: pip install ggplot
+To list all your libraries: conda list
 ```
 
-- You can also create an environment for this i.e:  
-`conda create --name gnssrsc`
+- If you would like to create an environment:  
+```bash
+conda create --name gnssrsc
+conda init bash # Or zsh
+# close and reopen your terminal
+# navigate to your miniconda3/envs directory
+conda activate gnssrsc
+```
 
-- You might need pip to install any other remaining libraries (in case they do not install with the conda install commands) 
+- Create a new directory: i.e.: GNSSRSC-2023
 
 - Next, clone this repository locally with: 
   
   `git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git`
 
-- And finally start Jupyter Lab in the git repository directory directory: 
-jupyter lab
+- And finally start Jupyter Lab in the git repository directory: 
+  `jupyter lab`
 
 - Inside jupyter lab navigate to notebooks directory to access the colloquium notebooks. You will need internet access to load the data which we will be downloading either from data.cosmic.ucar.edu or will be included in the git repo and will be downloaded at the time of cloning the repository. 
 
