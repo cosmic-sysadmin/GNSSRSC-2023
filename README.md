@@ -67,7 +67,11 @@ The jupyter notebooks require the following Python libraries:
 - Install the main dependencies. It is recommended that these are installed individually to prevent conflicts during install.
 
 ```bash
-conda init bash # Or zsh
+Optional: 
+conda init bash # Or zsh - This puts the path to the configuration for conda in your .bashrc or .zshrc
+# You may need to close and reopen your terminal or source the .bashrc
+
+To install the needed libraries: 
 
 conda install -c conda-forge numpy
 conda install -c conda-forge scipy
@@ -80,6 +84,7 @@ conda install -c conda-forge xarray
 conda install -c conda-forge palettable
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge pip
+
 If you need another library and conda install cannot find it, you can also use pip
 i.e: pip install ggplot
 To list all your libraries: conda list or pip list
@@ -100,7 +105,6 @@ To list all your libraries: conda list or pip list
 - If you would like to create an environment:  
 ```bash
 conda create --name gnssrsc
-# close and reopen your terminal
 # navigate to your miniconda3/envs directory
 # To activate the environment: 
 conda activate gnssrsc
