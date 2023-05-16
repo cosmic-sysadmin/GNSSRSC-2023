@@ -42,6 +42,7 @@ The jupyter notebooks require the following Python libraries:
 ## The Data Files: Main file types we will be working with: 
 
 - [COSMIC-2 podTc2 files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level1b/)
+- [COSMIC-2 ionPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/provisional/spaceWeather/level2/)
 - [COSMIC-2 atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level2/)
 - [SPIRE atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/spire/nrt/level2/)
 - Any other types?
@@ -94,7 +95,7 @@ To list all your libraries: conda list or pip list
 
 - Next, clone this repository locally with: 
   
-  `git clone git@github.com:cosmic-sysadmin/GNSSRSC-2023.git`
+  `git clone https://github.com/cosmic-sysadmin/GNSSRSC-2023.git`
 
 - And finally start Jupyter Lab in the git repository directory: 
   `jupyter lab`
