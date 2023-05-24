@@ -56,8 +56,8 @@ The jupyter notebooks require the following Python libraries:
 ## Set up
 
 - [ ] VM - Instructions here to access and work with the VM
-Connect to the gnss-rsc-2023 VM via SSH:
-	`Substitute "<username>" and "<password>" for the user name and password provided to you`
+- Connect to the gnss-rsc-2023 VM via SSH:
+	- `Substitute "<username>" and "<password>" for the user name and password provided to you`
 	- ssh <username>@128.117.233.100
 	- Password: <password>
 
