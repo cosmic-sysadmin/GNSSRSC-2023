@@ -4,7 +4,7 @@ AWS and AMI
 
 Prerequisite 
 -----------
-* :code:`Remote display protocol`: *
+|* :code:`Remote display protocol`: 
        | Mac: Xquartz
        | Windows: x11?
 
