@@ -31,10 +31,10 @@ Get familiar with ECFLOW
     |once see the UI window, click on the serve icon from the menu on the top, click on the manege server and edit, check if the ip address is correct. Then close.
 
 
-8.  let's do an experiment!
+8.   let's do an experiment!
      | create_experiment.py ${JEDI_SRC}/ewok/experiments/gfs-3dvar-c96-ctrl.yaml
 
-9.  vi ${JEDI_SRC}/ewok/experiments/gfs-3dvar-c96-ctrl.yaml
+9.   vi ${JEDI_SRC}/ewok/experiments/gfs-3dvar-c96-ctrl.yaml
      will be explained the details tomorrow
 
-10. how to check/monitor your experiment?
+10.   how to check/monitor your experiment?
