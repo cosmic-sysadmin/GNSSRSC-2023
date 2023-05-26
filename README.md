@@ -37,7 +37,9 @@ The jupyter notebooks require the following Python libraries:
 - netcdf4
 - jupyter
 - Any other types?
- 	
+ 
+The DA subgroup lab exercise session requires:
+- remote display protocol, e.g., Xquartz	
 
 ## The Data Files: Main file types we will be working with: 
 
