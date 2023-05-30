@@ -36,8 +36,10 @@ The jupyter notebooks require the following Python libraries:
 - pyyaml
 - netcdf4
 - jupyter
-- Any other types?
- 	
+- plotly
+ 
+The DA subgroup lab exercise session requires:
+- remote display protocol, e.g., Xquartz	
 
 ## The Data Files: Main file types we will be working with: 
 
@@ -45,18 +47,19 @@ The jupyter notebooks require the following Python libraries:
 - [COSMIC-2 ionPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/provisional/spaceWeather/level2/)
 - [COSMIC-2 atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/cosmic2/nrt/level2/)
 - [SPIRE atmPrf, wetPrf, echPrf and bfrPrf files ](https://data.cosmic.ucar.edu/gnss-ro/spire/nrt/level2/)
-- Any other types?
-
-
-## Decide on a Daterange
-
-- Any particular data range for the Lab exercises?
 
 
 ## Set up
+- [ ] Attendees are welcome to use their set up and language of choice for the labs. We have prepared VM and local machine set up instructions below; as well as lab exercises written in Python for the first week. 
+
 
 - [ ] VM - Instructions here to access and work with the VM
-- Tyson and Gary to update this part
+- Connect to the gnss-rsc-2023 VM via SSH:
+	- `Substitute "username" and "password" for the user name and password provided to you`
+	- ssh username@128.117.233.100
+	- Password: password
+
+Your environment should already be all set up for running the exercises.  Please speak to Gary Romero for any issues encountered.
 
 
 - [ ] Local machine - You can also run the notebooks on your own computer/laptop or a remote cluster
@@ -87,7 +90,7 @@ conda install -c conda-forge jupyterlab
 conda install -c conda-forge pip
 
 If you need another library and conda install cannot find it, you can also use pip
-i.e: pip install ggplot
+i.e: pip install ggplot, or pip install plotly
 To list all your libraries: conda list or pip list
 ```
 
