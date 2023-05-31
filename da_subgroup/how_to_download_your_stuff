@@ -1,0 +1,10 @@
+- gettting your stuff with scp
+scp -i "KEY-RSC2023-DA.pem"ec2-user@$publicAddress://home/ec2-user/work/JEDI_ROOT/plots/*png .
+
+- vi cheat sheet
+  https://ryanstutorials.net/linuxtutorial/cheatsheetvi.phpshow line number in "vi"
+  show line numbers
+    :set nu
+  saev your work
+    :w
+
