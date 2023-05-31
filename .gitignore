@@ -1,0 +1,6 @@
+# Exclude userdata directory, where the input data and output figures will be stored
+../GNSS-data/cosmic2/atmPrf
+../GNSS-data/cosmic2/wetPf2
+
+# Exclude ipynb checkpoints
+.ipynb_checkpoints
