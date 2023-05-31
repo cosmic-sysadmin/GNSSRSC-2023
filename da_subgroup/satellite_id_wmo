@@ -1,0 +1,31 @@
+! https://github.com/JCSDA-internal/GSI/blob/master/src/gsi/setupbend.f90#LL264C1-L293C31
+!*******************************************************************************
+! List of GPS RO satellites and corresponding BUFR id
+!740 => COSMIC FM1
+!741 => COSMIC FM2
+!742 => COSMIC FM3
+!743 => COSMIC FM4
+!744 => COSMIC FM5
+!745 => COSMIC FM6
+!4   => MetOpA
+!41  => Champ
+!722 => GRACE A
+!723 => GRACE B
+!820 => SACC
+!42  => TerraSAR-X
+!43  => Tandem-X
+!786 => C/NOFS
+!421 => OCEANSAT-2
+!3   => MetOpB
+!440 => Megha-Tropiques
+!821 => SACD
+!44  => PAZ
+!750-755 => COSMIC-2 Equatorial
+!724-729 => COSMIC-2 Polar
+!825 => KOMPSAT-5
+!5   => MetOpC
+!265 => GeoOptics CICERO OP1
+!266 => GeoOptics CICERO OP2
+!267 => PlanetiQ GNOMES-A
+!268 => PlanetiQ GNOMES-B
+!269 => Spire Lemur 3U CubeSat
