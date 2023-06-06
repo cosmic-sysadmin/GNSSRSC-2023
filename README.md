@@ -88,6 +88,7 @@ conda install -c conda-forge xarray
 conda install -c conda-forge palettable
 conda install -c conda-forge jupyterlab
 conda install -c conda-forge pip
+conda install -c conda-forge libnetcdf # This is need for ncdump command - most likely conda will already provide this automatically 
 
 If you need another library and conda install cannot find it, you can also use pip
 i.e: pip install ggplot, or pip install plotly
@@ -100,10 +101,10 @@ To list all your libraries: conda list or pip list
   
   `git clone https://github.com/cosmic-sysadmin/GNSSRSC-2023.git`
 
-- And finally start Jupyter Lab in the git repository directory: 
-  `jupyter lab`
+- And finally start Jupyter in the git repository directory: 
+  `jupyter lab or jupyter notebook`
 
-- Inside jupyter lab navigate to notebooks directory to access the colloquium notebooks. You will need internet access to load the data which we will be downloading either from data.cosmic.ucar.edu or will be included in the git repo and will be downloaded at the time of cloning the repository. 
+- Inside jupyter lab navigate to the 'jupyter-notebooks' directory to access the colloquium notebooks. You will need internet access to load the data which we will be downloading either from data.cosmic.ucar.edu or will be included in the git repo and will be downloaded at the time of cloning the repository. 
 
 
 - If you would like to create an environment:  
