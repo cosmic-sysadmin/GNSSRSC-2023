@@ -1,18 +1,18 @@
-advances!
+Make presentation
 ----------------------------
-1.  building JEDI-bundle 
 
-    |    to be filled
+-- figures of "ctrl"
 
-2.  observation types
+-- GNSSRO observation distribution
 
-    |    to be filled
+-- fitting to GNSSRO and radiosonde observations
 
-
-3.  other important parameters
-     
-    |    to be filled
-
-take home message!
+Advances!
 ----------------------------
- 
+-- more about JEDI-bundle 
+
+
+-- more about observation types that can be assimialted in JEDI
+
+
+-- other important parameters
