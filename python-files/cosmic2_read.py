@@ -48,8 +48,8 @@ const = fName[7:9]
 fmNum = fName[10:11]
 fYear = fName[12:16]
 fDoy = fName[17:20]
-fMin = fName[21:23]
-fSec = fName[24:26]
+fHr = fName[21:23]
+fMin = fName[24:26]
 timeStr = fName[12:26]
 
 # Read in data from netCDF files
